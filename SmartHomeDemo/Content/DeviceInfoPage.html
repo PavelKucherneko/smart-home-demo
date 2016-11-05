@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html ng-app="DeviceInfoModule">
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <script src="/Scripts/jquery-3.1.1.js"></script>
+        <script src="/Scripts/angular.js"></script>
+        <script src="/App/App.js"> </script>
+    </head>
+    <body ng-controller="DeviceInfoScriptController as controller">
+        <button ng-click="showDeviceInfos = !showDeviceInfos">{{buttonText}}</button>
+        <div class="deviceInfos-div" id="deviceInfos1"  ng-show="showDeviceInfos">
+            <ul class="deviceInfos" >
+                <li ng-repeat="deviceInfo in deviceInfos">
+                    <div>
+                        <p>Device {{deviceInfo.id}}: name={{deviceInfo.name}}, status={{deviceInfo.status}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
