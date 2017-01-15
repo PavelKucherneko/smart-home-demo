@@ -9,9 +9,9 @@ namespace SmartHomeDemo.Controllers
     {
         private readonly ICollection<DeviceViewModel> _devices = new List<DeviceViewModel>
         {
-            new DeviceViewModel() {Id = 1, Name = "Heater", Status = DeviceStatuses.On},
-            new DeviceViewModel() {Id = 2, Name = "AirConditioner", Status = DeviceStatuses.Off},
-            new DeviceViewModel() {Id = 3, Name = "Camera", Status = DeviceStatuses.On},
+            new DeviceViewModel() {Id = 1, Name = "Heater", Status = DeviceStatus.On},
+            new DeviceViewModel() {Id = 2, Name = "AirConditioner", Status = DeviceStatus.Off},
+            new DeviceViewModel() {Id = 3, Name = "Camera", Status = DeviceStatus.On}
         };
 
         // GET api/<controller>

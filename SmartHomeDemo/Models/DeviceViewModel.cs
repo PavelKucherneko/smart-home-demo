@@ -9,6 +9,6 @@ namespace SmartHomeDemo.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public DeviceStatuses Status { get; set; }
+        public DeviceStatus Status { get; set; }
     }
 }

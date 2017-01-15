@@ -1,6 +1,6 @@
 ﻿namespace SmartHomeDemo.Models
 {
-    public enum DeviceStatuses
+    public enum DeviceStatus
     {
         Unknown,
         On,

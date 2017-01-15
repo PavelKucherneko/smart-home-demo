@@ -30,3 +30,4 @@ var DeviceInfoModule;
     })(DeviceStatuses || (DeviceStatuses = {}));
 })(DeviceInfoModule || (DeviceInfoModule = {}));
 angular.module("DeviceInfoModule", []).controller("DeviceInfoScriptController", DeviceInfoModule.DeviceInfoScriptController);
+//# sourceMappingURL=App.js.map

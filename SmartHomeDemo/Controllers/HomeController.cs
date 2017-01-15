@@ -9,15 +9,14 @@ namespace SmartHomeDemo.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index(int? id)
+        public ActionResult Index(int id=1)
         {
             ViewBag.Title = "SmartHomeDemo home Page";
 
-            if(!id.HasValue || id < 0)
+            if(id < 0)
             {
-                return new HttpNotFoundResult();
+                return new HttpNotFoundResult("User id is not correct.");
             }
-
             return View(new HomeViewModel(id));
         }
     }
