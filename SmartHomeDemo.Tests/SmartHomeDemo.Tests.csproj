@@ -65,7 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IntegrationTests\DeviceTest.cs" />
+    <Compile Include="IntegrationTests\DevicePageTest.cs" />
     <Compile Include="IntegrationTests\PageObjects\CreateDevicePageObject.cs" />
     <Compile Include="IntegrationTests\PageObjects\DevicePageObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

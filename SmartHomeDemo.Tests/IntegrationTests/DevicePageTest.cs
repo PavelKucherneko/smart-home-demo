@@ -5,7 +5,7 @@ using SmartHomeDemo.Tests.IntegrationTests.PageObjects;
 
 namespace SmartHomeDemo.Tests.IntegrationTests
 {
-    class DeviceTest
+    class DevicePageTest
     {
         [Test]
         public void DevicesAreShownInTheTable()
